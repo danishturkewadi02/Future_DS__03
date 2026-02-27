@@ -1,4 +1,6 @@
 E-Commerce Funnel & Conversion Analysis (Power BI)
+##Due to dataset size constraints, the full Power BI file is not publicly shared.
+Dashboard screenshots and analytical logic are provided for demonstration purposes.
 
 *Project Objective:
 
@@ -78,3 +80,51 @@ Tools Used:
 *Outcome:
 
 This project demonstrates the practical application of funnel analytics in improving business performance and optimizing marketing strategies.
+
+DAX used for analysis in power bi:
+1. Visitors
+Visitors =
+CALCULATE(
+    DISTINCTCOUNT('2019-Nov'[user_session]),
+    '2019-Nov'[event_type] = "view"
+)
+
+2. Add to Cart
+Add_to_Cart =
+CALCULATE(
+    DISTINCTCOUNT('2019-Nov'[user_session]),
+    '2019-Nov'[event_type] = "cart"
+)
+
+3. Customers (Purchases)
+Customers =
+CALCULATE(
+    DISTINCTCOUNT('2019-Nov'[user_session]),
+    '2019-Nov'[event_type] = "purchase"
+)
+
+4)Conversion Rates:
+
+View_to_Cart_% =
+DIVIDE([Add_to_Cart], [Visitors], 0)
+
+Cart_to_Purchase_% =
+DIVIDE([Customers], [Add_to_Cart], 0)
+
+Overall_Conversion_% =
+DIVIDE([Customers], [Visitors], 0)
+
+5)Revenue:
+
+Revenue =
+CALCULATE(
+    SUM('2019-Nov'[price]),
+    '2019-Nov'[event_type] = "purchase"
+)
+
+6)Drop-Off Analysis:
+Drop_View_to_Cart =
+[Visitors] - [Add_to_Cart]
+
+Drop_Cart_to_Purchase =
+[Add_to_Cart] - [Customers]
