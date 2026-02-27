@@ -1,4 +1,5 @@
 E-Commerce Funnel & Conversion Analysis (Power BI)
+
 ##Due to dataset size constraints, the full Power BI file is not publicly shared.
 Dashboard screenshots and analytical logic are provided for demonstration purposes.
 
