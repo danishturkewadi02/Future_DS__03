@@ -1,6 +1,6 @@
 E-Commerce Funnel & Conversion Analysis (Power BI)
 
-Project Objective:
+*Project Objective:
 
 To analyze user behavior data and evaluate performance across the e-commerce conversion funnel:
 
@@ -23,58 +23,58 @@ Brand and category
 
 Large-scale data was cleaned and transformed using Power BI Power Query.
 
-Key Metrics Created:
+*Key Metrics Created:
 
-Distinct Visitors
+1)Distinct Visitors
 
-Add to Cart Count
+2)Add to Cart Count
 
-Customers (Purchases)
+3)Customers (Purchases)
 
-View → Cart Conversion %
+4)View → Cart Conversion %
 
-Cart → Purchase Conversion %
+5)Cart → Purchase Conversion %
 
-Overall Conversion %
+6)Overall Conversion %
 
-Revenue
+7)Revenue
 
-Drop-off Analysis
+8)Drop-off Analysis
 
-Key Insights:
+*Key Insights:
 
-Significant drop-off observed in early funnel stage.
+1)Significant drop-off observed in early funnel stage.
 
-Checkout abandonment remains a major revenue leakage point.
+2)Checkout abandonment remains a major revenue leakage point.
 
-Revenue is concentrated among select high-performing brands.
+3)Revenue is concentrated among select high-performing brands.
 
-Conversion performance varies significantly across brands.
+4)Conversion performance varies significantly across brands.
 
-Recommendations:
+*Recommendations:
 
-Improve product page experience.
+1)Improve product page experience.
 
-Reduce checkout friction.
+2)Reduce checkout friction.
 
-Scale high-converting brands.
+3)Scale high-converting brands.
 
-Optimize underperforming traffic sources.
+4)Optimize underperforming traffic sources.
 
-Use retargeting strategies to recover abandoned carts.
+5)Use retargeting strategies to recover abandoned carts.
 
 Tools Used:
 
-Power BI
+1)Power BI
 
-DAX
+2)DAX
 
-Funnel Modeling
+3)Funnel Modeling
 
-KPI Design
+4)KPI Design
 
-Data Cleaning & Transformation
+5)Data Cleaning & Transformation
 
-Outcome:
+*Outcome:
 
 This project demonstrates the practical application of funnel analytics in improving business performance and optimizing marketing strategies.
